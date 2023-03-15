@@ -1,3 +1,10 @@
+import React from 'react';
+import { useEffect, useState } from 'react';
+import './style.css';
+const axios = require('axios');
+
+export default function ApppokeApi() {
+
 const [pokeDataAPI, pokeSetData] = useState([]);
   const [pokeyear, setYear] = useState([]);
 
@@ -12,3 +19,4 @@ const [pokeDataAPI, pokeSetData] = useState([]);
         });
     } catch (error) {}
   };
+}

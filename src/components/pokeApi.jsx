@@ -19,4 +19,21 @@ const [pokeDataAPI, pokeSetData] = useState([]);
         });
     } catch (error) {}
   };
+
+  return (
+    <>
+      
+        <h2>Population in USA:</h2>
+        {dataPopulation.sort().map((population) => (
+          {population}
+        ))}
+
+      <hr />
+      <ul>
+        {dataPopulation.sort().map((population) => (
+          <li>{population}</li>
+        ))}
+      </ul>
+    </>
+  );
 }

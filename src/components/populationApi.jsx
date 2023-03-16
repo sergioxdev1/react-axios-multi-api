@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import './style.css';
+import '../style.css';
 const axios = require('axios');
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';

@@ -1,39 +1,30 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
-import './style.css';
-const axios = require('axios');
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
-export default function ApppokeApi() {
+function pokeApi() {
+  const [pokemons, setPokemons] = useState([]);
 
-const [pokeDataAPI, pokeSetData] = useState([]);
-  const [pokeyear, setYear] = useState([]);
-
-  const pokeApi = 'https://pokeapi.co/api/v2/pokemon?limit=15';
-  const fetchPokeAPI = async () => {
-    try {
-      const resp = await axios
-        .get(pokeApi)
-        .then((response) => response.data.data)
-        .then((data) => {
-          setData(data);
-        });
-    } catch (error) {}
-  };
+  useEffect(() => {
+    axios
+      .get('https://pokeapi.co/api/v2/pokemon?limit=15')
+      .then((response) => {
+        setPokemons(response.data.results);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
 
   return (
-    <>
-      
-        <h2>Population in USA:</h2>
-        {dataPopulation.sort().map((population) => (
-          {population}
-        ))}
-
-      <hr />
+    <div>
+      <h1>Pokemons:</h1>
       <ul>
-        {dataPopulation.sort().map((population) => (
-          <li>{population}</li>
+        {pokemons.map((pokemon) => (
+          <li key={pokemon.name}>{pokemon.name}</li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }
+
+export default pokeApi;

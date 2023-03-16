@@ -38,7 +38,7 @@ export default function populationApi() {
   console.log(dataPopulation.sort());
 
   return (
-    <>
+    <div className="population">
       <Tabs>
         <TabList>
           {dataYear.sort().map((years) => (
@@ -57,6 +57,6 @@ export default function populationApi() {
           <li>{population}</li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }

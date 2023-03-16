@@ -16,7 +16,7 @@ function pokeApi() {
   }, []);
 
   return (
-    <div>
+    <div className="pokemon">
       <h1>Pokemons:</h1>
       <ul>
         {pokemons.map((pokemon) => (

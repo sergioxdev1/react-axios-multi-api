@@ -17,7 +17,7 @@ export default function dogApi() {
   }, []);
 
   return (
-    <div className="population">
+    <div className="dog">
       <h1>Dog Breeds List</h1>
       <ul>
         {breeds.map((breed) => (

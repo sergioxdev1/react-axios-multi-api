@@ -11,7 +11,13 @@ p {
 }
 
 .pokemon {
-  background-color: bisque;
+  background-color: powderblue;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.dog {
+  background-color: navajowhite;
   padding: 1rem;
   margin: 0.5rem;
 }

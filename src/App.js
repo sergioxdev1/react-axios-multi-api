@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom';
 
 import HomePage from './pages/HomePage';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import DashboardPage from './pages/DashboardPage';
 import NotFoundPage from './pages/NotFoundPage';
 
@@ -35,4 +35,3 @@ export default function App() {
     </Router>
   );
 }
-

@@ -1,0 +1,27 @@
+#topMenu ul li {
+  display: inline;
+  padding: 0.7rem 1.5rem; /*Separar el texto*/
+  margin: 0.1rem; /* Separar los botones */
+  background-color: #82ccdd; /* Color de fondo */
+  text-decoration-line: none;
+}
+#topMenu ul li:hover {
+  background-color: #fad390; /* Color de fondo sobre el boton */
+  cursor: pointer; /* cambiar el aspecto del puntero */
+}
+
+#topMenu {
+  background-color: #0c2461;
+  padding: 0.3rem 0.3rem;
+}
+
+.active {
+  color: #e58e26;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+.inactive {
+  color: #0a3d62;
+  text-decoration-line: none;
+}

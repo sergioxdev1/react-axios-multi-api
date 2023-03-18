@@ -18,7 +18,7 @@ export default function dogApi() {
 
   return (
     <div className="dog">
-      <h1>Dog Breeds List</h1>
+      <h1>Dog Breeds List:</h1>
       <ul>
         {breeds.map((breed) => (
           <li key={breed}>{breed}</li>

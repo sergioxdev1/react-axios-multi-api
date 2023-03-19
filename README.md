@@ -2,6 +2,7 @@
 
 Combine differents API with diferents ways to fetching.
 using react router
+
 -
 [Data USA API](https://datausa.io/api/)
 -

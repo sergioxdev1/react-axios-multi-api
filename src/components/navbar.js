@@ -16,18 +16,26 @@ export default function Navbar() {
         </li>
         <li>
           <NavLink
-            to="/users"
+            to="/pokeApi"
             className={({ isActive }) => (isActive ? 'active' : 'inactive')}
           >
-            Users
+            Poke API
           </NavLink>
         </li>
         <li>
           <NavLink
             className={({ isActive }) => (isActive ? 'active' : 'inactive')}
-            to="/about"
+            to="/usaApi"
           >
-            About
+            USA API
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? 'active' : 'inactive')}
+            to="/dogApi"
+          >
+            Dog API
           </NavLink>
         </li>
       </ul>

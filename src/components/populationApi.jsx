@@ -54,8 +54,7 @@ export default function populationApi() {
       <hr />
       <ul>
         {dataPopulation.sort().map((population) => (
-          <li>{population}</li>
-        ))}
+          <li>{population}</li>))}
       </ul>
     </div>
   );

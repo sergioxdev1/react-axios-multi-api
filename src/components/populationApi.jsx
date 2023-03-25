@@ -50,6 +50,7 @@ export default function populationApi() {
           <TabPanel>{population}</TabPanel>
         ))}
       </Tabs>
+      
 
       <hr />
       <ul>

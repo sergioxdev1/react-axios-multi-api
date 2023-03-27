@@ -14,8 +14,7 @@ export default function populationApi() {
     'https://datausa.io/api/data?drilldowns=Nation&measures=Population';
   const fetchAPI = async () => {
     try {
-      const resp = await axios
-      
+      const resp = await axios     
         .get(url)
         .then((response) => response.data.data)
         .then((data) => {

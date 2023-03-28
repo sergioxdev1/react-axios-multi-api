@@ -17,8 +17,9 @@ export default function populationApi() {
       const resp = await axios     
 
         .get(url)
-        
+
         .then((response) => response.data.data)
+        
         .then((data) => {
           setData(data);
         });

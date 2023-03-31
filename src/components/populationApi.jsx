@@ -15,7 +15,6 @@ export default function populationApi() {
   const fetchAPI = async () => {
     try {
       const resp = await axios     
-
         .get(url)
         .then((response) => response.data.data)
         .then((data) => {

@@ -20,6 +20,7 @@ export default function populationApi() {
         .then((data) => {
           setData(data);
         });
+        
     } catch (error) {}
   };
 

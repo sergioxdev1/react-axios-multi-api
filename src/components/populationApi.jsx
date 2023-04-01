@@ -18,8 +18,9 @@ export default function populationApi() {
         .get(url)
 
         .then((response) => response.data.data)
-        
+
         .then((data) => {
+          
           setData(data);
         });
         

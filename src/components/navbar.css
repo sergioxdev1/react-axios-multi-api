@@ -3,6 +3,7 @@
   padding: 0.7rem 1.5rem; /*Separar el texto*/
   margin: 0.5rem; /* Separar los botones */
   background-color: #82ccdd; /* Color de fondo */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration-line: none;
   background: linear-gradient(#02c2f1, #86dcf7, #7575c4);
   box-shadow: 5px 5px rgb(0, 0, 39);

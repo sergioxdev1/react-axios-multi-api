@@ -1,5 +1,6 @@
 #topMenu ul li {
   display: flex;
+  flex-wrap: nowrap;
   padding: 0.7rem 1.5rem; /*Separar el texto*/
   margin: 0.5rem; /* Separar los botones */
   background-color: #82ccdd; /* Color de fondo */

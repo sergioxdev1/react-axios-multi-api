@@ -8,6 +8,7 @@
   text-decoration-line: none;
   background: linear-gradient(#02c2f1, #86dcf7, #7575c4);
   box-shadow: 5px 5px rgb(0, 0, 39);
+  
 }
 #topMenu ul li:hover {
   background-color: #fad390; /* Color de fondo sobre el boton */

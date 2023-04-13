@@ -8,18 +8,21 @@ p {
   background-color: lightgreen;
   padding: 1rem;
   margin: 0.5rem;
+  color: darkslategray;
 }
 
 .pokemon {
   background-color: powderblue;
   padding: 1rem;
   margin: 0.5rem;
+  color: darkslategray;
 }
 
 .dog {
   background-color: navajowhite;
   padding: 1rem;
   margin: 0.5rem;
+  color: darkslategray;
 }
 
 .notFound {
@@ -34,7 +37,7 @@ p {
 .home {
   padding: 1rem;
   margin: 0.5rem;
-  color: whitesmoke;
+  color: darkslategray;
   background: linear-gradient(#fafafa, #e4e4e4, #929292);
   box-shadow: 5px 5px rgb(0, 0, 39);
 

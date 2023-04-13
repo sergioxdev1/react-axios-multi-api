@@ -30,3 +30,12 @@ p {
   box-shadow: 5px 5px rgb(0, 0, 39);
 
 }
+
+.home {
+  background-color: yellow;
+  padding: 1rem;
+  margin: 0.5rem;
+  color: whitesmoke;
+  box-shadow: 5px 5px rgb(0, 0, 39);
+
+}

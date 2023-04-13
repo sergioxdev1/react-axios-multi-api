@@ -37,7 +37,10 @@ p {
 .home {
   padding: 1rem;
   margin: 0.5rem;
-  color: darkslategray;
+  color: whitesmoke;
+  font-style: italic;
+  font-weight: 400;
+  font-size: large;
   background: linear-gradient(#fafafa, #e4e4e4, #929292);
   box-shadow: 5px 5px rgb(0, 0, 39);
 

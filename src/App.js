@@ -12,9 +12,11 @@ import {
 import HomePage from './pages/HomePage';
 import Navbar from './components/navbar';
 import NotFoundPage from './pages/NotFoundPage';
+import './style.css';
 
 export default function App() {
   return (
+    <div className="home">
     <Router>
       <Navbar />
 
@@ -28,5 +30,6 @@ export default function App() {
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>
+    </div>
   );
 }

@@ -23,9 +23,9 @@ function pokeApi() {
           <li key={pokemon.name}>{pokemon.name}</li>
         ))}
       </ul>
-      {window.location.hash=""}
-    {window.location.hash=""}
-    {window.onhashchange=function(){window.location.hash=""}}
+      {window.location.hash="no-back-button"}
+    {window.location.hash="Again-No-back-button"}
+    {window.onhashchange=function(){window.location.hash="no-back-button"}}
     </div>
   );
 }

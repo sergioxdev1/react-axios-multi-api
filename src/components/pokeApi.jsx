@@ -12,8 +12,9 @@ function pokeApi() {
       })
       .catch((error) => {
         console.log(error);
+        
       });
-      
+
   }, []);
 
   return (

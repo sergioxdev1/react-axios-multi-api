@@ -1,7 +1,6 @@
 import React from 'react';
-import React, { useEffect, useState } from 'react';
 
-export default function dogApi() {
+export default function BlockBack() {
   {
     window.location.hash = 'no-back-button';
   }

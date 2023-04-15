@@ -1,6 +1,7 @@
 import React from 'react';
 import React, { useEffect, useState } from 'react';
 import '../style.css';
+import BlockBack from './blockBack';
 
 export default function dogApi() {
   const [breeds, setBreeds] = useState([]);
@@ -24,6 +25,7 @@ export default function dogApi() {
           <li key={breed}>{breed}</li>
         ))}
       </ul>
+      <BlockBack />
     </div>
   );
 }

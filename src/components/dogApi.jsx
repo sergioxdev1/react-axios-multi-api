@@ -13,8 +13,9 @@ export default function dogApi() {
         // Get the list of breeds from the data object
         const breeds = Object.keys(data.message);
         setBreeds(breeds);
+        
       })
-      
+
       .catch((error) => console.error(error));
   }, []);
 

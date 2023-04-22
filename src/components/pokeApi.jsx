@@ -11,6 +11,7 @@ function pokeApi() {
         setPokemons(response.data.results);
       })
       .catch((error) => {
+        
         console.log(error);
       });
 

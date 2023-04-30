@@ -11,5 +11,6 @@ export default function BlockBack() {
     window.onhashchange = function () {
     window.location.hash = 'no-back-button';
     };
+    
   }
 }

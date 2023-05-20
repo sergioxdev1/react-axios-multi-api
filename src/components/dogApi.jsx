@@ -10,6 +10,7 @@ export default function dogApi() {
     fetch('https://dog.ceo/api/breeds/list/all')
       .then((response) => response.json())
       .then((data) => {
+        
       // Get the list of breeds from the data object
         const breeds = Object.keys(data.message);
         setBreeds(breeds);

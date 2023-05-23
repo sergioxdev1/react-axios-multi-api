@@ -15,7 +15,6 @@ export default function dogApi() {
       })
       .catch((error) => console.error(error));
   }, []);
-
   return (
     <div className="dog">
       <h1>Dog Breeds List:</h1>

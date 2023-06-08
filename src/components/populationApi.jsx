@@ -49,7 +49,9 @@ export default function populationApi() {
         </TabList>
         <h2>Population in USA:</h2>
         {dataPopulation.sort().map((population) => (
-          <TabPanel>{population}</TabPanel>
+          <ol>
+          <li>{population}</li>
+          </ol>
         ))}
       </Tabs>
       

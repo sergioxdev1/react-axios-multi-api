@@ -56,10 +56,10 @@ export default function populationApi() {
       </Tabs>
       
       <hr />
-      <ul>
+      <ol>
         {dataPopulation.sort().map((population) => (
           <li>{population}</li>))}
-      </ul>
+      </ol>
     </div>
   );
 }

@@ -24,7 +24,6 @@ export default function dogApi() {
         ))}
       </ul>
       <BlockBack />
-
     </div>
   );
 }

@@ -18,7 +18,8 @@ export default function dogApi() {
   }, [])
   console.log(breeds);
   let [a1, ,a2] = breeds;
-  console.log(breeds);
+  console.log(a1);
+  console.log(a2);
   ;
   return (
     <div className="dog">

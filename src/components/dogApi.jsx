@@ -17,6 +17,8 @@ export default function dogApi() {
       .catch((error) => console.error(error));
   }, [])
   console.log(breeds);
+  let [{]a1, ,a2] = breeds;
+  console.log(breeds);
   ;
   return (
     <div className="dog">

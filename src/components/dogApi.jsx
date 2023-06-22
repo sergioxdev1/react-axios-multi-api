@@ -13,6 +13,7 @@ export default function dogApi() {
         const breeds = Object.keys(data.message);
         setBreeds(breeds);
       })
+    
       .catch((error) => console.error(error));
   }, [])
   console.log(breeds);

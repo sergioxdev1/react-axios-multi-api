@@ -14,7 +14,6 @@ export default function dogApi() {
         setBreeds(breeds);
       })
     
-
       .catch((error) => console.error(error));
   }, [])
   console.log(breeds);

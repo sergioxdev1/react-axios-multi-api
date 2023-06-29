@@ -21,7 +21,7 @@ export default function dogApi() {
   console.log(a1);
   console.log(a2);
   ;
-  
+
   return (
     <div className="dog">
       <h1>Dog Breeds List:</h1>

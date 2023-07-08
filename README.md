@@ -5,7 +5,6 @@ using react router
 using style components
 using axio
 -
-
 [Data USA API](https://datausa.io/api/)
 -
 [PokeAPI V2](https://pokeapi.co/api/v2/)
